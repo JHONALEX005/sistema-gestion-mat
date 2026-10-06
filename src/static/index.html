@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema de Gestión MAT | Demostración</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">PROTOTIPO ACADÉMICO · DATOS DE MUESTRA</p>
+      <h1>Sistema de Gestión MAT</h1>
+      <p>Explora las exposiciones de demostración y reserva un cupo para una visita.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section aria-labelledby="exhibitions-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / EXPLORAR</p>
+          <h2 id="exhibitions-title">Exposiciones</h2>
+        </div>
+        <p>Estos contenidos son ejemplos; el museo debe reemplazarlos por información verificada.</p>
+      </div>
+      <div id="exhibitions" class="cards" aria-live="polite"></div>
+    </section>
+    <section class="grid" aria-label="Gestión de reservas">
+      <div class="panel">
+        <p class="eyebrow">02 / RESERVAR</p>
+        <h2>Elige una visita</h2>
+        <form id="reserve-form">
+          <label for="slot">Fecha y horario</label>
+          <select id="slot" name="slot_id" required></select>
+          <label for="name">Nombre</label>
+          <input id="name" name="name" autocomplete="name" minlength="2" maxlength="100" required>
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="party-size">Número de visitantes</label>
+          <input id="party-size" name="party_size" type="number" min="1" max="4" value="1" required>
+          <button type="submit">Confirmar reserva</button>
+        </form>
+        <p id="reserve-message" class="message" role="status"></p>
+      </div>
+      <div class="panel secondary">
+        <p class="eyebrow">03 / CANCELAR</p>
+        <h2>¿No puedes asistir?</h2>
+        <p>Usa el código recibido al reservar y el mismo correo electrónico. Al cancelar, el cupo vuelve a estar disponible.</p>
+        <form id="cancel-form">
+          <label for="code">Código de reserva</label>
+          <input id="code" name="code" autocomplete="off" required>
+          <label for="cancel-email">Correo electrónico</label>
+          <input id="cancel-email" name="email" type="email" autocomplete="email" required>
+          <button type="submit">Cancelar reserva</button>
+        </form>
+        <p id="cancel-message" class="message" role="status"></p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap">Proyecto académico · Versión local de demostración · Sin pagos ni entradas digitales</footer>
+</body>
+</html>
+
