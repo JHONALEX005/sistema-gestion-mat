@@ -5,6 +5,7 @@
 - Prototipo local funcional en `src/`.
 - Documentación de requisitos, funciones, arquitectura, modelo de datos, instalación y cambios en `docs/`.
 - `README.md` con alcance real y estructura.
+- Registro de comprobación manual en `docs/evidencia-ejecucion.md`.
 - Carpeta `tests/` preparada sin casos de prueba.
 - Flujo de integración continua en `.github/workflows/ci.yml`.
 - Historial Git local con commits separados por fase.
@@ -18,4 +19,3 @@
 5. Entregar el archivo `nombre_repositorio.txt` incluido junto a esta carpeta. Un integrante del equipo debe realizar el envío.
 
 El pipeline está **configurado** localmente, pero su ejecución remota solo puede verificarse después de publicar el repositorio.
-

@@ -33,6 +33,7 @@ Las [instrucciones completas](docs/instalacion-configuracion.md) explican config
 - [Modelo de datos](docs/modelo-datos.md)
 - [Instalación y configuración](docs/instalacion-configuracion.md)
 - [Control de cambios y observaciones](docs/control-cambios.md)
+- [Evidencia de funcionamiento local](docs/evidencia-ejecucion.md)
 - [Estado de la entrega](ENTREGA.md)
 - [Publicación en GitHub](PUBLICAR_EN_GITHUB.md)
 
