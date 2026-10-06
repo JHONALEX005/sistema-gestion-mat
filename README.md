@@ -34,6 +34,7 @@ Las [instrucciones completas](docs/instalacion-configuracion.md) explican config
 - [Instalación y configuración](docs/instalacion-configuracion.md)
 - [Control de cambios y observaciones](docs/control-cambios.md)
 - [Estado de la entrega](ENTREGA.md)
+- [Publicación en GitHub](PUBLICAR_EN_GITHUB.md)
 
 ## Estructura
 
@@ -56,4 +57,3 @@ El flujo de GitHub Actions se ejecuta al hacer `push` o abrir una solicitud de c
 ## Límite de uso
 
 Esta versión está preparada para ejecución **local y académica**. No incluye autenticación ni un proceso de producción para almacenar datos personales. Para la demostración, utilice nombres y correos ficticios.
-
